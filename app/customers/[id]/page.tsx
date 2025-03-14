@@ -4,11 +4,6 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { ArrowLeft } from "lucide-react"
 import Link from "next/link"
 
-interface CustomerPageProps {
-  params: {
-    id: string
-  }
-}
 
 export default function CustomerPage() {
   // For now, let's use the mock data. In a real app, you'd fetch this from an API
