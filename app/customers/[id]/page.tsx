@@ -10,7 +10,7 @@ interface CustomerPageProps {
   }
 }
 
-export default function CustomerPage({ params }: CustomerPageProps) {
+export default function CustomerPage() {
   // For now, let's use the mock data. In a real app, you'd fetch this from an API
   const customer = {
     id: 1,
